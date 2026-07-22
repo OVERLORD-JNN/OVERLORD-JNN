@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="IMG/J_Logo_SF.png" rel="icon" type="imagenes/jpg">
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <img src="IMG/J_Logo_v.2.png" width="180px" height="150px" />
+            <a href="Index.html" class="brand">
+                <h2>Jonathan Nava Noguez</h2>
+            </a>
+            <nav>
+                <ul>
+                    <a href="Index.html"> 
+                        <li> Inicio <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Main.html">
+                        <li> Acerca <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Proyectos.html">
+                        <li> Portafolio <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Contacto.html">
+                        <li> Contacto <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- SOBRE MI TRABAJO -->
+            <section class="section" id="sobre-mi">
+                <h2>Sobre mi trabajo</h2>
+                <div class="section-grid">
+                    <div class="section-card">
+                        <h3>Mi perfil</h3>
+                        <p>
+                            Apasionado por los videojuegos y la tecnología, he colaborando en proyectos independientes y con otros desarrolladores para llevar ideas a la realidad.
+                            Crear nuevas experiencias y dedicarme al desarrolo integral de videojuegos.
+                        </p>
+                    </div>
+                    <div class="section-card">
+                        <h3>Áreas de especialidad</h3>
+                        <ul>
+                            <li>Diseño de juegos — Programación de mecánicas y game design.</li>
+                            <li>Programación — DOminio en: C#, C++, Unity y Unreal.</li>
+                            <li> VFX — Niagara System y 3D con Blender.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MI EXPERIENCIA -->
+            <section class="section" id="experiencia">
+                <h2>Mi experiencia</h2>
+                <div class="section-grid">
+                    <div class="section-card">
+                        <h3>Aprendiz Programador (2020)</h3>
+                        <p>Inicio mi embarque al mundo del desarrollo, conociendo los lenguajes de marcaje.</p>
+                    </div>
+                    <div class="section-card">
+                        <h3>Diseñador de niveles (2021 - 2026)</h3>
+                        <p>Creación de mecánicas y niveles para juegos educativos, aplicando feedback de usuarios y optimización continua.</p>
+                    </div>
+                    <div class="section-card">
+                        <h3>Artista tecnico (2024 - 2026)</h3>
+                        <p>Creacion de VFX con Niagara en Unrreal Engine 5.4 y 5.5. Uso de Choaos system en coliciones destructivas.</p>
+                    </div>
+                    <section class="section" id="experiencia">
+                        <h3>Siempre actualizandome (2022 - )</h3>
+                        <p>
+                            - Certificacion de envidia en Deep Lerning. <br />
+                            - Participacion en Talent Land 2025. <br />
+                            - Cursos en Coursera y Udemy sobre desarrollo de videojuegos, inteligencia artificial y optimización de rendimiento. <br />
+                            - Certificación en desarrollo de videojuegos por parte de la universidad. <br />
+                            - Certificacion en desarrollo con IA por parte de BIGschool. <br />
+                        </p>
+                    </section>
+
+                </div>
+            </section>
+
+            <!-- POR QUÉ ELEGIRME -->
+            <section class="section" id="porque-elegirme">
+                <h2>¿Por qué elegirme?</h2>
+                <div class="section-grid">
+                    <div class="section-card">
+                        <h3>Creatividad</h3>
+                        <p>Busco la diversion en el juego con ideas equilibradas e inovadoras que se adapten a las necesidades de cada juego.</p>
+                    </div>
+                    <div class="section-card">
+                        <h3>Perceverancia</h3>
+                        <p>Siempre en busca de optimizar mi trabajo, especialmente para la plataforma de PC, garantizando fluidez y rendimiento. En busca de mas y mas conocimiento</p>
+                    </div>
+                    <div class="section-card">
+                        <h3>Fiabilidad</h3>
+                        <p>Mantengo comunicación constante y cumplo los plazos establecidos.</p>
+                    </div>
+                    <div class="gallery">
+                        <img src="IMG\Certificación.jpg" alt="DEEP LERNING" />
+                        <img src="IMG\certificado.png" alt="TALENT LAND" />
+                        <img src="IMG\CertificaciónBIGschool.jpg" alt="Desarrollo con IA" />
+                    </div>
+                    <div id="imageModal" class="modal">
+                        <img id="modalImg">
+                    </div>
+                </div>
+            </section>
+
+            <!-- GALERÍA DE PROYECTOS -->
+            <section class="section" id="galeria">
+                <h2>Galería de proyectos</h2>
+                <div class="gallery">
+                    <img src="IMG\AIGuard.jpg" alt="AIGuard">
+                    <img src="IMG\Code.jpg" alt="Code">
+                    <img src="IMG\Cristal.jpg" alt="Cristal">
+                    <img src="IMG\Sol.jpg" alt="Sol">
+                    <img src="IMG\Glich.jpg" alt="Glich">
+                    <!--img src="IMG\Matrix.jpg" alt="Matrix"-->
+                    <img src="IMG\Zona.jpg" alt="Zona">
+                    <img src="IMG\Atrigrado.jpg" alt="Atrigrado">
+                    <img src="IMG\Frozen.jpg" alt="Frozen">
+                </div>
+                <div id="imageModal" class="modal">
+                    <img id="modalImg">
+                </div>
+            </section>
+
+            <script>
+                const modal = document.getElementById("imageModal");
+                const modalImg = document.getElementById("modalImg");
+
+                document.querySelectorAll(".gallery img").forEach(img => {
+                    img.addEventListener("click", () => {
+                        modal.style.display = "flex";
+                        modalImg.src = img.src;
+                    });
+                });
+
+                modal.addEventListener("click", (e) => {
+                    if (e.target !== modalImg) {
+                        modal.style.display = "none";
+                    }
+                });
+            </script>
+
+        </main>
+        <footer>
+            <p>© 2025 Todos los derechos reservados | <a href="https://github.com/IPV1412">GitHub</a> | <a href="https://www.linkedin.com/in/b19624341/">LinkedIn</a></p>
+        </footer>
+    </div>
+</body>
+</html>

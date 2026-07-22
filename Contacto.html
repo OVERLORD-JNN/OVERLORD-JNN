@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="IMG/J_Logo_SF.png" rel="icon" type="imagenes/jpg">
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <img src="IMG/J_Logo_v.2.png" width="180px" height="150px" />
+            <a href="Index.html" class="brand">
+                <h2>Jonathan Nava Noguez</h2>
+            </a>
+            <nav>
+                <ul>
+                    <a href="Index.html">
+                    <li> Inicio <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Main.html">
+                    <li> Acerca <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Proyectos.html">
+                    <li> Portafolio <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Contacto.html">
+                    <li> Contacto <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="card">
+                <h2>Contáctame</h2>
+                <form id="contactForm">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    <input type="email" name="email" placeholder="Tu correo" required>
+                    <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+
+        <footer>
+            <p>© 2025 Todos los derechos reservados | <a href="https://github.com/IPV1412">GitHub</a> | <a href="https://www.linkedin.com/in/b19624341/">LinkedIn</a></p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+   <script>
+(function(){
+    emailjs.init("CEqphz2KRN53Rn4Rn"); 
+})();
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    if (localStorage.getItem("formEnviado")) {
+        alert("Ya has enviado un mensaje 🚫");
+        return;
+    }
+
+    emailjs.sendForm("service_ffkivc8", "template_2k628oq", this)
+    .then(function() {
+        alert("Mensaje enviado correctamente, gracias por contactarme");
+        localStorage.setItem("formEnviado", "true");
+
+    }, function(error) {
+        alert("Error al enviar.");
+        console.log(error);
+    });
+});
+    </script>
+
+</body>
+</html>
