@@ -1,3 +1,27 @@
+/* =========================================
+   ANIMACIONES DE ENTRADA (SCROLL)
+========================================= */
+.animado {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+    .animado.mostrar {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+.project-video {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .project-video:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(255, 140, 0, 0.3);
+    }
+/* Css general */
 :root {
     --orange: #e95500;
     --black: #0d0d0d;

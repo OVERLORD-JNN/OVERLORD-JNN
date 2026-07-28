@@ -7,6 +7,30 @@
     <link href="IMG/J_Logo_SF.png" rel="icon" type="imagenes/jpg">
     <link rel="stylesheet" href="Main.css">
 </head>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const observador = new IntersectionObserver((entradas) => {
+            entradas.forEach(entrada => {
+                if (entrada.isIntersecting) {
+                    entrada.target.classList.add('mostrar');
+                }
+            });
+        }, {
+            threshold: 0.15
+        });
+
+        // Seleccionamos los elementos a animar
+        const elementos = document.querySelectorAll('.section, .card, .project-video');
+
+        // Les añadimos la clase inicial y los observamos
+        elementos.forEach(el => {
+            el.classList.add('animado');
+            observador.observe(el);
+        });
+    });
+</script>
+</body>
+</html>
 <body>
     <div class="wrap">
         <header>
@@ -16,17 +40,17 @@
             </a>
             <nav>
                 <ul>
-                    <a href="Index.html"> 
-                        <li> Inicio <span></span><span></span><span></span><span></span> </li>
+                    <a href="Index.html">
+                    <li> Inicio <span></span><span></span><span></span><span></span> </li>
                     </a>
-                    <a href="Main.html">
-                        <li> Acerca <span></span><span></span><span></span><span></span> </li>
+                    <a href="cv.html">
+                    <li> Acerca <span></span><span></span><span></span><span></span> </li>
                     </a>
                     <a href="Proyectos.html">
-                        <li> Portafolio <span></span><span></span><span></span><span></span> </li>
+                    <li> Portafolio <span></span><span></span><span></span><span></span> </li>
                     </a>
                     <a href="Contacto.html">
-                        <li> Contacto <span></span><span></span><span></span><span></span> </li>
+                    <li> Contacto <span></span><span></span><span></span><span></span> </li>
                     </a>
                 </ul>
             </nav>
@@ -102,8 +126,11 @@
                     </div>
                     <div class="gallery">
                         <img src="IMG\Certificación.jpg" alt="DEEP LERNING" />
-                        <img src="IMG\certificado.png" alt="TALENT LAND" />
                         <img src="IMG\CertificaciónBIGschool.jpg" alt="Desarrollo con IA" />
+                        <img src="IMG\CertificaciónBIGschool-1.jpg" alt="Data scince con IA" />
+                        <img src="IMG\CertificaciónBIGschool-2.jpg" alt="Desarrollo con IA" />
+                        <img src="IMG\talent25.png" alt="TALENT LAND - 2025" />
+                        <img src="IMG\talent26.png" alt="TALENT LAND - 2026" />
                     </div>
                     <div id="imageModal" class="modal">
                         <img id="modalImg">

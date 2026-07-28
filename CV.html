@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Acerca de mí</title>
+    <link href="IMG/J_Logo_SF.png" rel="icon" type="imagenes/jpg">
+    <link rel="stylesheet" href="Main.css">
+</head>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const observador = new IntersectionObserver((entradas) => {
+                entradas.forEach(entrada => {
+                    if (entrada.isIntersecting) {
+                        entrada.target.classList.add('mostrar');
+                    }
+                });
+            }, {
+                threshold: 0.15 
+            });
+
+            // Seleccionamos los elementos a animar
+            const elementos = document.querySelectorAll('.section, .card, .project-video');
+
+            // Les añadimos la clase inicial y los observamos
+            elementos.forEach(el => {
+                el.classList.add('animado');
+                observador.observe(el);
+            });
+        });
+</script>
+</body>
+</html>
+<body>
+    <div class="wrap">
+        <header>
+            <img src="IMG/J_Logo_v.2.png" width="180px" height="150px" />
+            <a href="Index.html" class="brand">
+                <h2>Jonathan Nava Noguez</h2>
+            </a>
+            <nav>
+                <ul>
+                    <a href="Index.html">
+                    <li> Inicio <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="cv.html">
+                    <li> Acerca <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Proyectos.html">
+                    <li> Portafolio <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                    <a href="Contacto.html">
+                    <li> Contacto <span></span><span></span><span></span><span></span> </li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <main>
+
+                <!-- PERFIL -->
+                <section class="section">
+                    <h2>Perfil Profesional</h2>
+                    <p>
+                        Programador de videojuegos en formación y estudiante de último año de
+                        Ingeniería en Programación de Videojuegos. Me especializo en el desarrollo de mecánicas,
+                        sistemas interactivos y gameplay utilizando motores como <strong>Unreal Engine</strong> y <strong>Unity</strong>.
+                    </p>
+
+                    <p>
+                        Me caracterizo por mi orientación a resultados, capacidad de liderazgo natural y una
+                        constante disposición para aprender nuevas tecnologías. Disfruto resolver problemas
+                        complejos dentro del desarrollo de videojuegos y mejorar continuamente la calidad del código, salvaguardando siempre la integridad y diversion del mismo.
+                    </p>
+                </section>
+
+
+                <!-- APTITUDES -->
+                <section class="section">
+                    <h2>Aptitudes Técnicas</h2>
+
+                    <div class="section-grid">
+
+                        <div class="section-card">
+                            <h3>Lenguajes</h3>
+                            <p>C++</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:85%"></div></div>
+
+                            <p>C#</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:80%"></div></div>
+
+                            <p>Java</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:60%"></div></div>
+
+                            <p>Python</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:40%"></div></div>
+
+                            <p>CSS</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:40%"></div></div>
+
+                            <p>HTML</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:70%"></div></div>
+                        </div>
+
+
+                        <div class="section-card">
+                            <h3>Motores de Videojuegos</h3>
+
+                            <p>Unreal Engine (C++ / Blueprints)</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:85%"></div></div>
+
+                            <p>Unity</p>
+                            <div class="progress"><div class="progress-bar" style="--progress:85%"></div></div>
+
+                        </div>
+
+
+                        <div class="section-card">
+                            <h3>Metodologías</h3>
+                            <p>Principios SOLID (nivel intermedio)</p>
+                            <p>Trabajo colaborativo en equipo</p>
+                            <p>Orientación a objetivos</p>
+                            <p>Aprendizaje continuo</p>
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+                <!-- EXPERIENCIA -->
+                <section class="section">
+                    <h2>Experiencia</h2>
+
+                    <div class="section-grid">
+
+                        <div class="section-card">
+                            <h3>Supernova Dev Game</h3>
+                            <p>
+                                Participación en desarrollo de prototipo de videojuego en tiempo limitado dentro
+                                de un entorno de Game Jam.
+                            </p>
+
+                            <ul>
+                                <li>Desarrollo del gameplay usando Unity</li>
+                                <li>Trabajo colaborativo con el equipo</li>
+                                <li>Creación de demo funcional en tiempo limitado</li>
+                            </ul>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>Proyectos personales</h3>
+                            <ul>
+                                <li>Creación de sistemas de gameplay en Unreal Engine</li>
+                                <li>Implementación de mecánicas básicas de juego</li>
+                                <li>Creación de MetaHumans en Unreal</li>
+                                <li>Participación en eventos y comunidades como TalentLand</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+                <!-- FORMACIÓN UNREAL -->
+                <section class="section">
+                    <h2>Formación en Unreal Engine</h2>
+
+                    <div class="section-grid">
+
+                        <div class="section-card">
+                            <h3>Gameplay y Personajes</h3>
+                            <p>
+                                Creación de personajes, sistema de inputs y multijugador local utilizando
+                                <strong>CreateLocalPlayer</strong>.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>Sistemas de Juego</h3>
+                            <p>
+                                Implementación de colisiones, triggers, sistema de vidas, muerte con ragdoll
+                                y reinicio de nivel.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>Objetos Interactivos</h3>
+                            <p>
+                                Llaves, puertas condicionadas, destructibles usando Chaos y sistemas de inventario.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>UI y HUD</h3>
+                            <p>
+                                Widgets en C++ y Blueprints, barras de tiempo, comunicación entre actores.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>Multijugador</h3>
+                            <p>
+                                RPCs en C++, sincronización cliente-servidor y cambio de nivel por jugador.
+                            </p>
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+                <!-- FORMACIÓN UNITY -->
+                <section class="section">
+                    <h2>Formación en Unity</h2>
+
+                    <div class="section-grid">
+
+                        <div class="section-card">
+                            <h3>Gameplay</h3>
+                            <p>
+                                Programación en C# para control de jugador, lógica de juego y sistemas reutilizables.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>Sistemas de combate</h3>
+                            <p>
+                                Armas, proyectiles, recarga y efectos visuales y sonoros.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>IA básica</h3>
+                            <p>
+                                Enemigos tipo torreta con detección, ataque y destrucción.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>UI y HUD</h3>
+                            <p>
+                                Objetivos de misión, menús, progreso de juego y control del cursor.
+                            </p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>Gestión del juego</h3>
+                            <p>
+                                Manejo de escenas con SceneManager y control del flujo del juego.
+                            </p>
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+                <!-- IDIOMAS -->
+                <section class="section">
+                    <h2>Idiomas</h2>
+
+                    <div class="section-grid">
+
+                        <div class="section-card">
+                            <h3>Español</h3>
+                            <p>Nativo</p>
+                        </div>
+
+                        <div class="section-card">
+                            <h3>Inglés</h3>
+                            <p>Básico (A2)</p>
+                        </div>
+
+                    </div>
+                </section>
+
+            </main>
+        </main>
+        <footer>
+            <p>© 2025 Todos los derechos reservados | <a href="https://github.com/IPV1412">GitHub</a> | <a href="https://www.linkedin.com/in/b19624341/">LinkedIn</a></p>
+        </footer>
+    </div>
+</body>
+</html>
