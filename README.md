@@ -1,128 +1,94 @@
-# 👋 Hola, soy Jonathan Nava Noguez
+<p align="center">
+  <img src="IMG/J_Logo_SF.png" width="118" alt="Emblema personal de Jonathan Nava Noguez" />
+</p>
 
-## Software Developer | Game Developer
+<h1 align="center">Jonathan Nava Noguez</h1>
 
-Bienvenido a mi perfil de GitHub.
+<p align="center"><strong>Programador de videojuegos en formación · Unreal Engine · Unity</strong></p>
 
-Soy un desarrollador de software apasionado por el aprendizaje continuo, el desarrollo de aplicaciones y la creación de soluciones que aporten valor mediante la tecnología. Me interesa diseñar software limpio, escalable y mantenible, aplicando buenas prácticas de desarrollo y buscando mejorar constantemente tanto a nivel técnico como profesional.
+<p align="center">
+  <a href="https://ipv1412.github.io/Portafolio/">
+    <img src="https://img.shields.io/badge/Ver_portafolio-1f6feb?style=for-the-badge&logo=githubpages&logoColor=white" alt="Ver portafolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/jonathan-nava-61b568384">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://overlord-jnn.itch.io/">
+    <img src="https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Itch.io" />
+  </a>
+  <a href="mailto:nn_Jonathan@hotmail.com">
+    <img src="https://img.shields.io/badge/Contacto-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Enviar correo" />
+  </a>
+</p>
 
-Actualmente utilizo GitHub como un espacio para documentar mi crecimiento, compartir proyectos y experimentar con nuevas tecnologías.
+## Perfil
 
----
+Soy estudiante de último año de Ingeniería en Programación de Videojuegos, con interés en construir mecánicas, sistemas interactivos y experiencias de gameplay. Trabajo principalmente con **Unreal Engine** y **Unity**, combinando programación, diseño de niveles y una mentalidad de mejora continua.
 
-# 🚀 Perfil Profesional
+Me motivan los retos técnicos propios del desarrollo de videojuegos: convertir una idea en una experiencia jugable, iterar a partir del feedback y mantener el código claro y sostenible.
 
-Me enfoco en el desarrollo de aplicaciones utilizando tecnologías modernas y metodologías ágiles, procurando escribir código legible, reutilizable y orientado a resolver problemas reales.
+## Enfoque técnico
 
-Algunas áreas que forman parte de mi interés profesional incluyen:
+<div align="center">
+  <img src="https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" />
+  <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" alt="Unity" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C Sharp" />
+  <img src="https://img.shields.io/badge/Blueprints-137CBD?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Blueprints" />
+</div>
 
-* Desarrollo con Unity
-Desarrollo con Unrreal
-* Arquitectura de Software
-* Automatización de procesos
-* Control de versiones con Git
-* Mejora continua y aprendizaje constante
+| Área | Tecnologías y prácticas |
+| --- | --- |
+| **Motores** | Unreal Engine (C++ y Blueprints), Unity |
+| **Programación** | C++, C#, Java, Python, HTML y CSS |
+| **Gameplay** | Control de personajes, sistemas de combate, objetos interactivos, UI/HUD y gestión de escenas |
+| **Sistemas en Unreal** | Colisiones, triggers, inventarios, Chaos, widgets, RPCs y sincronización cliente-servidor |
+| **Herramientas** | Git, GitHub, Visual Studio Code, Rider y Docker |
+| **Forma de trabajo** | Programación orientada a objetos, principios SOLID, colaboración y aprendizaje continuo |
 
----
+## Proyectos destacados
 
-# 💻 Tecnologías
+### Juego de plataformas 2D · Unity
 
-### Lenguajes de Programación
+Proyecto centrado en mecánicas de salto, físicas y diseño de niveles desafiantes.
 
-* C++
-* C#
-* Java
-* JavaScript
-* Python
-* HTML5
-* CSS3
+[Ver gameplay](https://www.youtube.com/watch?v=KrHkZYZzGuA)
 
+### Museo Artístico / VFX · Unity y Unreal Engine
 
+Exploración de efectos visuales con sistemas de partículas y **Niagara**.
 
-### Herramientas
+[Código del proyecto](https://github.com/IPV1412/VFX_Examen) · [Demo de Niagara](https://www.youtube.com/watch?v=KrHkZYZzGuA) · [Demo del museo](https://www.youtube.com/watch?v=GbS3k0F6iTw)
 
-* Git
-* GitHub
-* Unity
-* Unrreal
-* Visual Studio Code
-* Rider
-* Docker
+### Experiencias multijugador · Unreal Engine 5.4 y 5.5
 
----
+Implementación de sistemas multijugador, sincronización y lógica de red para experiencias de juego.
 
-# 📂 Proyectos
+[Código del proyecto](https://github.com/IPV1412/Ipvmulti) · [Ver demostración](https://www.youtube.com/watch?v=EonzClbbhqU)
 
-En este perfil encontrarás diferentes proyectos enfocados en fortalecer mis habilidades como desarrollador.
+> Encuentra más contexto y material visual de estos proyectos en el [portafolio web](https://ipv1412.github.io/Portafolio/).
 
-Cada uno representa una oportunidad para aplicar conceptos como:
+## Experiencia y formación práctica
 
-* Arquitectura por capas
-* Programación Orientada a Objetos
-* Diseño de APIs REST
-* Integración de bases de datos
-* Manejo de autenticación
-* Principios SOLID
-* Buenas prácticas de desarrollo
-* Patrones de diseño
+- **Supernova Dev Game** — participación en una Game Jam: desarrollo de gameplay en Unity, colaboración con el equipo y creación de una demo funcional dentro de un plazo limitado.
+- **Proyectos personales** — creación de sistemas de gameplay y mecánicas básicas en Unreal Engine, además de trabajo con MetaHumans.
+- **Formación en Unreal Engine** — personajes e inputs, UI/HUD con C++ y Blueprints, objetos interactivos, sistemas de juego y fundamentos de multijugador.
+- **Formación en Unity** — control de jugador, combate, IA básica, UI/HUD y gestión del flujo del juego con `SceneManager`.
 
-Mi objetivo es que cada proyecto refleje una evolución constante tanto en calidad de código como en diseño de soluciones.
+## Aprendizaje continuo
 
----
+Mantengo una formación activa en desarrollo de videojuegos, inteligencia artificial y optimización de rendimiento. El portafolio documenta formación complementaria en *Deep Learning*, desarrollo con IA y actividades de comunidad como TalentLand.
 
-# 🌱 Actualmente aprendiendo
+## Contacto
 
-Actualmente continúo fortaleciendo conocimientos en:
-
-* Arquitectura de Software
-* Microservicios
-* Docker
-* DevOps
-* Cloud Computing
-* Testing
-* Integración Continua (CI/CD)
-
----
-
-# 🎯 Objetivo Profesional
-
-Busco integrarme a un equipo donde pueda aportar valor mediante el desarrollo de software, aprender de profesionales con experiencia y participar en proyectos que representen retos técnicos importantes.
-
-Me interesa crecer como desarrollador construyendo aplicaciones escalables, seguras y de alta calidad.
+- Portafolio: [ipv1412.github.io/Portafolio](https://ipv1412.github.io/Portafolio/)
+- Itch.io: [overlord-jnn.itch.io](https://overlord-jnn.itch.io/)
+- LinkedIn: [Jonathan Nava Noguez](https://www.linkedin.com/in/jonathan-nava-61b568384)
+- Correo: [nn_Jonathan@hotmail.com](mailto:nn_Jonathan@hotmail.com)
+- Ubicación: México
 
 ---
 
-# 📈 Filosofía de Desarrollo
-
-Creo que un buen software no solo debe funcionar.
-
-También debe ser:
-
-* Fácil de mantener.
-* Escalable.
-* Seguro.
-* Bien documentado.
-* Pensado para el usuario.
-* Construido con buenas prácticas.
-
----
-
-# 🤝 Colaboración
-
-Siempre estoy abierto a colaborar en proyectos de desarrollo, iniciativas de código abierto y oportunidades que permitan seguir aprendiendo y aportar soluciones de calidad.
-
----
-
-# 📫 Contacto
-
-📧 Correo: ** Jonathan_nn@hotmail.com**
-
-💼 LinkedIn: **https://www.linkedin.com/in/jonathan-nava-61b568384**
-
-🌐 Portafolio: **https://ipv1412.github.io/Portafolio/**
-
----
-
-# ⭐ Gracias por visitar mi perfil
-
-Si alguno de mis proyectos te resulta interesante o consideras que puedo aportar a tu equipo, será un gusto conectar y colaborar.
+<div align="center">
+  <sub>Abierto a colaborar en proyectos de desarrollo de videojuegos y experiencias interactivas.</sub>
+</div>
