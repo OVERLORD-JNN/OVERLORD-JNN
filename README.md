@@ -7,7 +7,7 @@
 <p align="center"><strong> Programador de videojuegos · Unreal Engine · Unity / Desaroollador en c++ y web </strong></p>
 
 <p align="center">
-  <a href="https://ipv1412.github.io/Portafolio/">
+  <a href="https://overlord-jnn.github.io/OVERLORD-JNN/Index">
     <img src="https://img.shields.io/badge/Ver_portafolio-1f6feb?style=for-the-badge&logo=githubpages&logoColor=white" alt="Ver portafolio" />
   </a>
   <a href="https://www.linkedin.com/in/jonathan-nava-61b568384">
@@ -66,7 +66,8 @@ Implementación de sistemas multijugador con disparos e IA la cual puede oírte 
 
 [Código del proyecto](https://github.com/IPV1412/Ipvmulti) · [Ver demostración](https://www.youtube.com/watch?v=EonzClbbhqU)
 
-> Encuentra más contexto y material visual de estos proyectos en el [portafolio web](https://ipv1412.github.io/Portafolio/).
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+> Encuentra más contexto y material visual de estos proyectos y muchos mas en mi [portafolio web](https://overlord-jnn.github.io/OVERLORD-JNN/Index).
 
 ## Experiencia y formación práctica
 
