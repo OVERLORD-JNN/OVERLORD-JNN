@@ -4,7 +4,7 @@
 
 <h1 align="center">Jonathan Nava Noguez</h1>
 
-<p align="center"><strong>Programador de videojuegos en formación · Unreal Engine · Unity</strong></p>
+<p align="center"><strong> Programador de videojuegos · Unreal Engine · Unity / Desaroollador en c++ y web </strong></p>
 
 <p align="center">
   <a href="https://ipv1412.github.io/Portafolio/">
@@ -23,7 +23,7 @@
 
 ## Perfil
 
-Soy estudiante de último año de Ingeniería en Programación de Videojuegos, con interés en construir mecánicas, sistemas interactivos y experiencias de gameplay. Trabajo principalmente con **Unreal Engine** y **Unity**, combinando programación, diseño de niveles y una mentalidad de mejora continua.
+Cuento con una Ingeniería en Programación de Videojuegos, con interés en construir mecánicas, sistemas interactivos y experiencias de gameplay. Trabajo principalmente con **Unreal Engine** y **Unity**, combinando programación, diseño de niveles y una mentalidad de mejora continua.
 
 Me motivan los retos técnicos propios del desarrollo de videojuegos: convertir una idea en una experiencia jugable, iterar a partir del feedback y mantener el código claro y sostenible.
 
@@ -48,21 +48,21 @@ Me motivan los retos técnicos propios del desarrollo de videojuegos: convertir 
 
 ## Proyectos destacados
 
-### Juego de plataformas 2D · Unity
+### Juego Tower Defense · Unity
 
-Proyecto centrado en mecánicas de salto, físicas y diseño de niveles desafiantes.
+Proyecto centrado en mecánicas de defensa de base, con múltiples torretas y enemigos desafiantes a los que te enfrentas en una oleada 
 
-[Ver gameplay](https://www.youtube.com/watch?v=KrHkZYZzGuA)
+[Ver gameplay](https://youtu.be/qDftjYBCrDM)
 
 ### Museo Artístico / VFX · Unity y Unreal Engine
 
 Exploración de efectos visuales con sistemas de partículas y **Niagara**.
 
-[Código del proyecto](https://github.com/IPV1412/VFX_Examen) · [Demo de Niagara](https://www.youtube.com/watch?v=KrHkZYZzGuA) · [Demo del museo](https://www.youtube.com/watch?v=GbS3k0F6iTw)
+[Código del proyecto](https://github.com/IPV1412/VFX_Examen) · [Impacto Niagara](https://youtu.be/re53PbUUOY0) · [Demo del museo VFX](https://www.youtube.com/watch?v=GbS3k0F6iTw)
 
 ### Experiencias multijugador · Unreal Engine 5.4 y 5.5
 
-Implementación de sistemas multijugador, sincronización y lógica de red para experiencias de juego.
+Implementación de sistemas multijugador con disparos e IA la cual puede oírte y verte, sincronización y lógica de red para experiencias de juego.
 
 [Código del proyecto](https://github.com/IPV1412/Ipvmulti) · [Ver demostración](https://www.youtube.com/watch?v=EonzClbbhqU)
 
@@ -70,10 +70,10 @@ Implementación de sistemas multijugador, sincronización y lógica de red para 
 
 ## Experiencia y formación práctica
 
-- **Supernova Dev Game** — participación en una Game Jam: desarrollo de gameplay en Unity, colaboración con el equipo y creación de una demo funcional dentro de un plazo limitado.
 - **Proyectos personales** — creación de sistemas de gameplay y mecánicas básicas en Unreal Engine, además de trabajo con MetaHumans.
 - **Formación en Unreal Engine** — personajes e inputs, UI/HUD con C++ y Blueprints, objetos interactivos, sistemas de juego y fundamentos de multijugador.
-- **Formación en Unity** — control de jugador, combate, IA básica, UI/HUD y gestión del flujo del juego con `SceneManager`.
+- **Formación en Unity** — control de jugador, combate, IA, UI/HUD y gestión del flujo del juego.
+- - **Supernova Dev Game** — participación en una Game Jam: desarrollo de gameplay en Unity, colaboración con el equipo y creación de una demo funcional dentro de un plazo limitado.
 
 ## Aprendizaje continuo
 
@@ -85,6 +85,7 @@ Mantengo una formación activa en desarrollo de videojuegos, inteligencia artifi
 - Itch.io: [overlord-jnn.itch.io](https://overlord-jnn.itch.io/)
 - LinkedIn: [Jonathan Nava Noguez](https://www.linkedin.com/in/jonathan-nava-61b568384)
 - Correo: [nn_Jonathan@hotmail.com](mailto:nn_Jonathan@hotmail.com)
+- WhatsAap: [+52 - 7123835708]
 - Ubicación: México
 
 ---
